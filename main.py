@@ -5,10 +5,10 @@ from time import sleep
 from selenium.common.exceptions import ElementClickInterceptedException
 import random
 
-INSTA_USERNAME = "nom_notess"
-INSTA_EMAIL = "geaa00643@gmail.com"
-INSTA_PASSWORD = "x3hYf'tf-tQ:F2B"
-SIMILAR_ACCOUNT = "chefsteps"
+INSTA_USERNAME = "username"
+INSTA_EMAIL = "email"
+INSTA_PASSWORD = "password"
+SIMILAR_ACCOUNT = "account"
 
 chrome_opts = webdriver.ChromeOptions()
 chrome_opts.add_experimental_option("detach", True)
